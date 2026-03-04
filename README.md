@@ -64,7 +64,7 @@ Includes chunking, embedding pipelines, conversation memory & scalable backend a
 ## 🤝 Connect with Me
 
 <p align="center">
-  <a href="(https://www.linkedin.com/in/adarsh-kumar-427b65363/)">
+  <a href="https://www.linkedin.com/in/adarsh-kumar-427b65363/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://www.youtube.com/@adarshspace/featured">
