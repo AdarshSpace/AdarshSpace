@@ -46,7 +46,7 @@ AI-powered document Q&A system using semantic search and vector embeddings.
 Built with LangChain, Pinecone, and Google Gemini.  
 Includes chunking, embedding pipelines, conversation memory & scalable backend architecture.
 
-👉 Live link : https://chat-with-pdf-8poi.vercel.app/
+👉 Live link : https://chat-with-pdf-8poi.vercel.app/              
 👉 Github Repo : https://github.com/AdarshSpace/chat-with-pdf  
 
 ---
