@@ -27,16 +27,6 @@
   <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,nextjs,react,mongodb,mysql,redis,aws,docker,git,github" />
 </p>
 
-### 🧠 GenAI & System Tools
-- LangChain  
-- Pinecone  
-- Google Gemini API  
-- BullMQ  
-- Claude 
-- Cursor 
-- Antigravity 
-
----
 
 ## 🚀 Featured Projects
 
