@@ -30,49 +30,44 @@
 
 ## 🚀 Featured Projects
 
-### 🎓 MotionKart — Production-Grade LMS
+### 🎓 MotionKart — Multi-Tenant LMS
 
 
-[![MotionKart Demo](https://img.youtube.com/vi/3mFDyCkzLz0/maxresdefault.jpg)](https://youtu.be/3mFDyCkzLz0?si=116Dc-6ly5ggJEAv)
+[![MotionKart Demo](https://img.youtube.com/vi/vVvcEUXUhvo/maxresdefault.jpg)](https://youtu.be/vVvcEUXUhvo)
 
 
-A full-stack **Learning Management System for motion designers**, built and deployed to production.
-
-👉 Live link : https://www.motionkart.online/              
-👉 Demo Video : https://youtu.be/3mFDyCkzLz0      [5-Minute Demo Video]
-
-👉 Github Repo : https://github.com/AdarshSpace/motionkart
+A production-ready **multi-tenant Learning Management System**, built for teachers and coaching institutes to create, manage, and deliver online education from a single platform.
 
 **Key Features:**
+- 🏢 **Multi-Tenant Architecture** with tenant-specific domains, courses, students, and dashboards
 - 🎥 Video learning platform with **Mux** video streaming
+- 🔴 **Live Classes using VideoSDK** with real-time video, audio, chat, polls, screen sharing, microphone, and camera support
 - 💳 Course payments using **Razorpay + Webhooks**
 - 🤖 AI-powered **Doubt Solver using RAG**
 - 🧠 **Gemini + LangChain + Pinecone** for course-grounded answers
 - 📄 Downloadable PDF course notes with access control
 - 🔖 Saved videos for personalized revision
-- 🔐 Authentication with **Better Auth + Google & GitHub OAuth**
+- 🔐 Custom **JWT session-based authentication**
+- 🛡️ Tenant-aware authentication and role-based authorization
 - ⚙️ **Redis + BullMQ** for background PDF processing
 - 🗄️ **Prisma + MySQL** for database management
-- ☁️ Production deployment using **Vercel + AWS**
+- ☁️ Production deployment using **Vercel + AWS EC2 + AWS RDS**
 
 **Tech Stack:**  
-`Next.js` · `React` · `TypeScript` · `Node.js` · `Express` · `Prisma` · `MySQL` · `Redis` · `BullMQ` · `AWS` · `Mux` · `Razorpay` · `LangChain` · `Pinecone` · `Gemini`
+`Next.js` · `React` · `TypeScript` · `Node.js` · `Express` · `Prisma` · `MySQL` · `Redis` · `BullMQ` · `AWS EC2` · `AWS RDS` · `Mux` · `VideoSDK` · `Razorpay` · `LangChain` · `Pinecone` · `Gemini`
 
 <p align="center">
-  <a href="https://www.motionkart.online">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-motionkart.online-0F6E56?style=for-the-badge" />
-  </a>
-  <a href="https://youtu.be/3mFDyCkzLz0">
-    <img src="https://img.shields.io/badge/▶_Demo_Video-YouTube-FF0000?style=for-the-badge&logo=youtube" />
-  </a>
-  <a href="https://github.com/AdarshSpace/motionkart">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
-  </a>
+  <a href="https://www.motionkart.online">🌐 <b>Live Project</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://youtu.be/vVvcEUXUhvo">▶️ <b>5-Minute Demo</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/AdarshSpace/Multi-Tenant">💻 <b>Source Code</b></a>
 </p>
 
 ---
 
 ### 🔹 Chat-with-PDF (RAG System)
+
 AI-powered document Q&A system using semantic search and vector embeddings.  
 Built with LangChain, Pinecone, and Google Gemini.  
 Includes chunking, embedding pipelines, conversation memory & scalable backend architecture.
@@ -90,6 +85,8 @@ Includes chunking, embedding pipelines, conversation memory & scalable backend a
 - Performance optimization using Redis  
 - Production-ready deployment on AWS  
 - Background job processing using BullMQ  
+- Multi-tenant SaaS architecture  
+- Real-time applications using WebRTC-based live communication  
 
 ---
 
